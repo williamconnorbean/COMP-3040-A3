@@ -8,8 +8,8 @@ GET: `https://api.manitoba-covid.org/json/cases`
 GET: `https://api.manitoba-covid.org/json/deaths`
 
 ### Parameters
-* date (string): Date provided in the YYYY-MM-DD format. Provides the number of COVID cases in Manitoba on the given date.
-* region (string): Manitoba region provided as a string.
+* date (string): Date provided in the YYYY-MM-DD format. Provides the number of COVID cases in Manitoba on the given date. If no date is provided the current date is used. 
+* region (string): Manitoba region provided as a string. If no region is provided "All Manitoba" is used. 
 
 ## Resources
 

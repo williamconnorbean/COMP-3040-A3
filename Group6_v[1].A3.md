@@ -63,4 +63,9 @@ https://api.manitoba-covid.org/json/deaths
     },
     "status": "OK"
 }
-```
+
+### Status codes
+These are found within the API response object and may mean the following:
+* "OK": indicates that no errors occured;
+* "INVALID REQUEST": indicates that the region or date is invalid or missing;
+* "UNKNOWN ERROR": indicates the request could not be processed due to server error. 
